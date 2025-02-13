@@ -80,7 +80,7 @@
         justify-content: center;
         align-items: center;
         z-index: 9999;
-        color: #fff;
+        color: #343;
         font-size: 24px;
         user-select: none;
         flex-direction: column;
@@ -109,7 +109,7 @@
       #killExtensionText {
         display: none;
         margin-top: 20px;
-        color: #333;
+        color: #943;
         font-size: 18px;
         text-align: center;
         background: #e9ecef;
@@ -185,8 +185,8 @@
         const sliderValueDisplay = document.getElementById("iframeCountValue");
         const deviceMemory = navigator.deviceMemory || 8; // It will be set to 8gb if you're in the data url, since navigator isnt supported.
         const defaultIframeCount = Math.round(deviceMemory * 500); // This changes the default value of the iframe slider based on how much memory your computer has
-        const maxIframeCount = Math.round(deviceMemory * 10000);
-        slider.value = defaultIframeCount;
+        const maxIframeCount = Math.round(deviceMemory * 100000);
+        slider.value = defaultIframeCount; 
         slider.max = maxIframeCount;
         sliderValueDisplay.textContent = defaultIframeCount;
         slider.addEventListener("input", function() {
