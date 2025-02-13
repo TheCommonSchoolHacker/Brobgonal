@@ -1,1 +1,2 @@
-This is a project for me and my school. dont come here.
+Hello, this is a thing that i modify for my school because people wanna play fortnight lol.
+anyways leave.
