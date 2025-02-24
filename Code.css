@@ -1,0 +1,39 @@
+    </script>
+  </body>
+</html>
+    <meta name="viewport" content="width=device-width, initial=scale=1.0">
+    <title>Brobgonal's Shit</title>
+    <link rel="stylesheet" href="style.css">
+
+  <div class="container">
+      <h1> <span class="auto-type"></span></h1>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script>
+     var typed = new Typed(".auto-type", {
+         strings: ["Brobgonal is here", "Schools cant escape"],
+         typeSpeed: 50,
+         backSpeed: 100,
+         loop: true
+     })
+
+</script> 
+
+</head>
+<script language="JavaScript">
+  <!--hide
+    var password;
+    var pass1="eDs72p"
+    password=prompt ('enter password to view page if wrong you will be met with a surprise.','');
+    if (password==pass1)
+    alert('correct password, click OK to enter.');
+  else
+  {
+    window.location="https://my.ipinfo.app/#IPv4";
+  }
+  //-->
+  </script>
+<body>
+
