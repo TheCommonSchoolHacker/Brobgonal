@@ -1,9 +1,6 @@
-<!DOCTYPE html> <html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <a href="https://docs.google.com/document/d/1hsuf95IzGo4HfGuaHaQ-2UieZ2vaEnyAdbXnLwTVAf4" class="a">Back to doc</a>
-          <a class="submit" href="https://docs.google.com/forms/d/1SrfEw19J6fPrU_FybSpsUzGGctZy2iQVvGIzGwKjlic" target="_blank">Submit your extension id to add it »</a>
-      <a class="submit" href="https://docs.google.com/forms/d/1SrfEw19J6fPrU_FybSpsUzGGctZy2iQVvGIzGwKjlic" target="_blank">Unblocked game's central »</a>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brobgonal</title>
@@ -19,7 +16,7 @@
       }
 
       header {
-        background-color: #343;
+        background-color: #343a40;
         color: #fff;
         padding: 10px 20px;
         text-align: center;
@@ -83,7 +80,7 @@
         justify-content: center;
         align-items: center;
         z-index: 9999;
-        color: #343;
+        color: #fff;
         font-size: 24px;
         user-select: none;
         flex-direction: column;
@@ -112,7 +109,7 @@
       #killExtensionText {
         display: none;
         margin-top: 20px;
-        color: #943;
+        color: #333;
         font-size: 18px;
         text-align: center;
         background: #e9ecef;
@@ -189,7 +186,7 @@
         const deviceMemory = navigator.deviceMemory || 8; // It will be set to 8gb if you're in the data url, since navigator isnt supported.
         const defaultIframeCount = Math.round(deviceMemory * 500); // This changes the default value of the iframe slider based on how much memory your computer has
         const maxIframeCount = Math.round(deviceMemory * 1000000);
-        slider.value = defaultIframeCount; 
+        slider.value = defaultIframeCount;
         slider.max = maxIframeCount;
         sliderValueDisplay.textContent = defaultIframeCount;
         slider.addEventListener("input", function() {
@@ -267,7 +264,7 @@
         if (!hasSupportedExtensions) {
           const option = document.createElement("option");
           option.value = "";
-          option.textContent = "No supported/school extensions installed";
+          option.textContent = "No supported extensions installed";
           selectElement.appendChild(option);
           document.getElementById("hangButton").style.display = "none";
           document.getElementById("iframeCountSlider").style.display = "none";
@@ -331,37 +328,9 @@
         const extensionId = selectedSrc.substring(selectedSrc.indexOf("//") + 2, selectedSrc.indexOf("/", selectedSrc.indexOf("//") + 2));
         const killExtensionText = document.getElementById("killExtensionText");
         document.getElementById("killButton").style.display = "none";
-        killExtensionText.innerHTML = "Make sure to keep this tab open. Then open  <strong> chrome://extensions/?id=" + extensionId + "</strong> and flip the switch called \"Allow access to file URLs\" twice. The extension was successfully killed! Now you can close that tab as well as this one. If you want to restore the extension, flip the allow access to file URLs switch again.";
-<a href="<strong> chrome://extensions/?id=" + extensionId </strong> class="a">YOUR extension url!</a>
+        killExtensionText.innerHTML = "Make sure to keep this tab open. Then open  <strong> chrome: //extensions/?id=" + extensionId + "</strong> and flip the switch called \"Allow access to file URLs\" twice. The extension was successfully killed! Now you can close that tab as well as this one. If you want to restore the extension, flip the allow access to file URLs switch again.";
         window.location.href = selectedSrc;
       }
     </script>
   </body>
 </html>
-    <meta name="viewport" content="width=device-width, initial=scale=1.0">
-    <title>Brobgonal's Shit</title>
-    <link rel="stylesheet" href="style.css">
-
-  <div class="container">
-      <h1> <span class="auto-type"></span></h1>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-  <script>
-     var typed = new Typed(".auto-type", {
-         strings: ["Brobgonal is here", "Schools cant escape"],
-         typeSpeed: 50,
-         backSpeed: 100,
-         loop: true
-     })
-
-</script> 
-
-</head>
-  <script language="JavaScript">
-  
-    
-</script>
-<body>
-
